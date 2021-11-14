@@ -1,0 +1,17 @@
+{
+	"type": "object",
+	"required": [
+		"courseIdList"
+	],
+	"properties": {
+		"courseIdList": {
+			"type": "array",
+			"items":{
+				"type": "integer",
+				"examples": [
+					1
+				]
+			}
+		}
+	}
+}

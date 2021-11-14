@@ -1,0 +1,37 @@
+{
+	"type": "object",
+	"required": [
+		"user_username",
+		"user_password",
+		"user_name",
+		"user_firstname",
+		"user_lastname",
+		"user_email"
+	],
+	"properties": {
+		"user_username": {
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"user_password": {
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"user_name": {
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"user_firstname": {
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"user_lastname": {
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"user_email": {
+			"type": "string",
+			"pattern": "^.*$"
+		}
+	}
+}

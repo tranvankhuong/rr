@@ -1,0 +1,37 @@
+{
+	"type": "object",
+	"required": [
+		"courseName",
+		"shortDescription",
+		"categoryId",
+		"price",
+		"saleoff",
+		"sectionCount"
+	],
+	"properties": {
+		"courseName": {
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"shortDescription": {
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"categoryId": {
+			"type": "integer"
+		},
+		"price": {
+			"type": "integer",
+			"default": 0
+		},
+		"saleoff": {
+			"type": "number",
+            "minimum": 0,
+            "maximum": 1
+		},
+		"sectionCount": {
+			"type": "integer",
+			"default": 0
+		}
+	}
+}

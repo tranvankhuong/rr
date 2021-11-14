@@ -1,0 +1,39 @@
+{
+  "name": "doan_webnc_cq2017-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/striderbinhphan/doan_webnc_cq2017-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/striderbinhphan/doan_webnc_cq2017-3/issues"
+  },
+  "homepage": "https://github.com/striderbinhphan/doan_webnc_cq2017-3#readme",
+  "dependencies": {
+    "ajv": "^8.6.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "googleapis": "^80.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.6",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.6.2",
+    "nodemon": "^2.0.9",
+    "randomstring": "^1.2.1",
+    "socket.io": "^4.1.3",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"type": "object",
+	"required": [
+		"feedback",
+		"rating",
+		"courseId"
+	],
+	"properties": {
+		"feedback": {
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"rating": {
+			"type": "number",
+			"default": 5,
+            "minimum": 0.1,
+            "maximum": 5
+		},
+		"courseId": {
+			"type": "integer",
+			"default": 0
+		}
+	}
+}
